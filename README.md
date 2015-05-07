@@ -1,0 +1,2 @@
+
+CocosLite Example
