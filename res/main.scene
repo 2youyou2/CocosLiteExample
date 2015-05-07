@@ -1,0 +1,1039 @@
+{
+	"root": {
+		"res": [
+			"res/Rocky.png",
+			"res/RockyFill.png",
+			"res/MossyEdges.png",
+			"res/spineboy.atlas",
+			"res/spineboy.json",
+			"res/spineboy.png",
+			"res/goblins-ffd.png",
+			"res/goblins-ffd.atlas",
+			"res/goblins-ffd.json"
+		],
+		"children": [
+			{
+				"components": [
+					{
+						"class": "TransformComponent",
+						"position": {
+							"x": 579.132,
+							"y": 0
+						},
+						"scale": {
+							"x": 20,
+							"y": 20
+						},
+						"rotation": {
+							"x": 0,
+							"y": 0
+						}
+					},
+					{
+						"class": "MeshComponent"
+					},
+					{
+						"class": "TerrainPathComponent",
+						"closed": true,
+						"pathVerts": [
+							{
+								"x": 16.012,
+								"y": 2.406
+							},
+							{
+								"x": 18.95,
+								"y": 10.219
+							},
+							{
+								"x": 18.7,
+								"y": 0.031
+							},
+							{
+								"x": 5.139,
+								"y": -0.082
+							},
+							{
+								"x": 0,
+								"y": 0
+							},
+							{
+								"x": -0.099,
+								"y": 2.783
+							},
+							{
+								"x": 2.366,
+								"y": 1.15
+							},
+							{
+								"x": 5.046,
+								"y": 1.181
+							},
+							{
+								"x": 10.546,
+								"y": 1.767
+							}
+						]
+					},
+					{
+						"class": "TerrainComponent",
+						"fill": "cl.Enum.TerrainFillMode.Closed",
+						"fillY": 0,
+						"fillZ": -0.5,
+						"splitCorners": true,
+						"smoothPath": true,
+						"splistDist": 4,
+						"pixelsPerUnit": 48,
+						"createCollider": true,
+						"terrainMaterial": "res/cave.tm"
+					},
+					{
+						"class": "PhysicsBody",
+						"static": true,
+						"mess": 1,
+						"moment": 1000
+					},
+					{
+						"class": "PhysicsPoly",
+						"verts": [
+							{
+								"x": 16.012,
+								"y": 2.406
+							},
+							{
+								"x": 18.95,
+								"y": 10.219
+							},
+							{
+								"x": 18.7,
+								"y": 0.031
+							},
+							{
+								"x": 5.139,
+								"y": -0.082
+							},
+							{
+								"x": 0,
+								"y": 0
+							},
+							{
+								"x": -0.099,
+								"y": 2.783
+							},
+							{
+								"x": 2.366,
+								"y": 1.15
+							},
+							{
+								"x": 5.046,
+								"y": 1.181
+							},
+							{
+								"x": 10.546,
+								"y": 1.767
+							}
+						],
+						"sensor": false,
+						"elasticity": 0,
+						"friction": 0
+					}
+				],
+				"name": "GameObject",
+				"tag": -1,
+				"visible": true,
+				"lock": false,
+				"open": true
+			},
+			{
+				"components": [
+					{
+						"class": "TransformComponent",
+						"position": {
+							"x": 643.302,
+							"y": 330.668
+						},
+						"scale": {
+							"x": 30,
+							"y": 30
+						},
+						"rotation": {
+							"x": 0,
+							"y": 0
+						}
+					},
+					{
+						"class": "MeshComponent"
+					},
+					{
+						"class": "TerrainPathComponent",
+						"closed": true,
+						"pathVerts": [
+							{
+								"x": 12.872,
+								"y": 3.122
+							},
+							{
+								"x": 13.625,
+								"y": 0.45
+							},
+							{
+								"x": 7.11,
+								"y": 0.165
+							},
+							{
+								"x": 5.616,
+								"y": -0.883
+							},
+							{
+								"x": 2.628,
+								"y": 0.01
+							},
+							{
+								"x": -2.506,
+								"y": -0.376
+							},
+							{
+								"x": 3.807,
+								"y": 1.415
+							},
+							{
+								"x": 8.946,
+								"y": 3.095
+							},
+							{
+								"x": 10.056,
+								"y": 5.642
+							}
+						]
+					},
+					{
+						"class": "TerrainComponent",
+						"fill": "cl.Enum.TerrainFillMode.Closed",
+						"fillY": 0,
+						"fillZ": -0.5,
+						"splitCorners": true,
+						"smoothPath": true,
+						"splistDist": 4,
+						"pixelsPerUnit": 48,
+						"createCollider": true,
+						"terrainMaterial": "res/cave.tm"
+					},
+					{
+						"class": "PhysicsBody",
+						"static": true,
+						"mess": 1,
+						"moment": 1000
+					},
+					{
+						"class": "PhysicsPoly",
+						"verts": [
+							{
+								"x": 12.872,
+								"y": 3.122
+							},
+							{
+								"x": 13.625,
+								"y": 0.45
+							},
+							{
+								"x": 7.11,
+								"y": 0.165
+							},
+							{
+								"x": 5.616,
+								"y": -0.883
+							},
+							{
+								"x": 2.628,
+								"y": 0.01
+							},
+							{
+								"x": -2.506,
+								"y": -0.376
+							},
+							{
+								"x": 3.807,
+								"y": 1.415
+							},
+							{
+								"x": 8.946,
+								"y": 3.095
+							},
+							{
+								"x": 10.056,
+								"y": 5.642
+							}
+						],
+						"sensor": false,
+						"elasticity": 0,
+						"friction": 0
+					}
+				],
+				"name": "GameObject",
+				"tag": -1,
+				"visible": true,
+				"lock": false,
+				"open": true
+			},
+			{
+				"components": [
+					{
+						"class": "TransformComponent",
+						"position": {
+							"x": 2.167,
+							"y": -1.9
+						},
+						"scale": {
+							"x": 20,
+							"y": 20
+						},
+						"rotation": {
+							"x": 0,
+							"y": 0
+						}
+					},
+					{
+						"class": "MeshComponent"
+					},
+					{
+						"class": "TerrainPathComponent",
+						"closed": true,
+						"pathVerts": [
+							{
+								"x": 13.857,
+								"y": 1.89
+							},
+							{
+								"x": 17.579,
+								"y": 2.439
+							},
+							{
+								"x": 18.579,
+								"y": 6.064
+							},
+							{
+								"x": 21.204,
+								"y": 5.751
+							},
+							{
+								"x": 20.574,
+								"y": 1.912
+							},
+							{
+								"x": 25.574,
+								"y": 1.912
+							},
+							{
+								"x": 25.286,
+								"y": -0.011
+							},
+							{
+								"x": 5,
+								"y": 0
+							},
+							{
+								"x": 0,
+								"y": 0
+							},
+							{
+								"x": 0.394,
+								"y": 9
+							},
+							{
+								"x": 3.074,
+								"y": 9
+							},
+							{
+								"x": 4.42,
+								"y": 5.47
+							},
+							{
+								"x": 7.572,
+								"y": 2.321
+							}
+						]
+					},
+					{
+						"class": "TerrainComponent",
+						"fill": "cl.Enum.TerrainFillMode.Closed",
+						"fillY": 0,
+						"fillZ": -0.5,
+						"splitCorners": true,
+						"smoothPath": true,
+						"splistDist": 4,
+						"pixelsPerUnit": 48,
+						"createCollider": true,
+						"terrainMaterial": "res/cave.tm"
+					},
+					{
+						"class": "PhysicsBody",
+						"static": true,
+						"mess": 1,
+						"moment": 1000
+					},
+					{
+						"class": "PhysicsPoly",
+						"verts": [
+							{
+								"x": 13.857,
+								"y": 1.89
+							},
+							{
+								"x": 17.579,
+								"y": 2.439
+							},
+							{
+								"x": 18.579,
+								"y": 6.064
+							},
+							{
+								"x": 21.204,
+								"y": 5.751
+							},
+							{
+								"x": 20.574,
+								"y": 1.912
+							},
+							{
+								"x": 25.574,
+								"y": 1.912
+							},
+							{
+								"x": 25.286,
+								"y": -0.011
+							},
+							{
+								"x": 5,
+								"y": 0
+							},
+							{
+								"x": 0,
+								"y": 0
+							},
+							{
+								"x": 0.394,
+								"y": 9
+							},
+							{
+								"x": 3.074,
+								"y": 9
+							},
+							{
+								"x": 4.42,
+								"y": 5.47
+							},
+							{
+								"x": 7.572,
+								"y": 2.321
+							}
+						],
+						"sensor": false,
+						"elasticity": 0,
+						"friction": 0
+					}
+				],
+				"name": "GameObject",
+				"tag": -1,
+				"visible": true,
+				"lock": false,
+				"open": true
+			},
+			{
+				"components": [
+					{
+						"class": "TransformComponent",
+						"position": {
+							"x": -32.833,
+							"y": 423.1
+						},
+						"scale": {
+							"x": 20,
+							"y": 20
+						},
+						"rotation": {
+							"x": 0,
+							"y": 0
+						}
+					},
+					{
+						"class": "MeshComponent"
+					},
+					{
+						"class": "TerrainPathComponent",
+						"closed": true,
+						"pathVerts": [
+							{
+								"x": 13.857,
+								"y": 1.89
+							},
+							{
+								"x": 16.11,
+								"y": 4.876
+							},
+							{
+								"x": 20.673,
+								"y": 3.814
+							},
+							{
+								"x": 25.298,
+								"y": 2.939
+							},
+							{
+								"x": 21.798,
+								"y": -1.061
+							},
+							{
+								"x": 15.61,
+								"y": -2.874
+							},
+							{
+								"x": 15.329,
+								"y": -6.999
+							},
+							{
+								"x": 22.454,
+								"y": -6.561
+							},
+							{
+								"x": 20.048,
+								"y": -10.311
+							},
+							{
+								"x": 8.985,
+								"y": -8.936
+							},
+							{
+								"x": 5,
+								"y": 0
+							},
+							{
+								"x": 0,
+								"y": 0
+							},
+							{
+								"x": 0.394,
+								"y": 9
+							},
+							{
+								"x": 13.923,
+								"y": 11.251
+							},
+							{
+								"x": 4.42,
+								"y": 5.47
+							},
+							{
+								"x": 7.572,
+								"y": 2.321
+							}
+						]
+					},
+					{
+						"class": "TerrainComponent",
+						"fill": "cl.Enum.TerrainFillMode.Closed",
+						"fillY": 0,
+						"fillZ": -0.5,
+						"splitCorners": true,
+						"smoothPath": true,
+						"splistDist": 4,
+						"pixelsPerUnit": 48,
+						"createCollider": true,
+						"terrainMaterial": "res/cave.tm"
+					},
+					{
+						"class": "PhysicsBody",
+						"static": true,
+						"mess": 1,
+						"moment": 1000
+					},
+					{
+						"class": "PhysicsPoly",
+						"verts": [
+							{
+								"x": 13.857,
+								"y": 1.89
+							},
+							{
+								"x": 16.11,
+								"y": 4.876
+							},
+							{
+								"x": 20.673,
+								"y": 3.814
+							},
+							{
+								"x": 25.298,
+								"y": 2.939
+							},
+							{
+								"x": 21.798,
+								"y": -1.061
+							},
+							{
+								"x": 15.61,
+								"y": -2.874
+							},
+							{
+								"x": 15.329,
+								"y": -6.999
+							},
+							{
+								"x": 22.454,
+								"y": -6.561
+							},
+							{
+								"x": 20.048,
+								"y": -10.311
+							},
+							{
+								"x": 8.985,
+								"y": -8.936
+							},
+							{
+								"x": 5,
+								"y": 0
+							},
+							{
+								"x": 0,
+								"y": 0
+							},
+							{
+								"x": 0.394,
+								"y": 9
+							},
+							{
+								"x": 13.923,
+								"y": 11.251
+							},
+							{
+								"x": 4.42,
+								"y": 5.47
+							},
+							{
+								"x": 7.572,
+								"y": 2.321
+							}
+						],
+						"sensor": false,
+						"elasticity": 0,
+						"friction": 0
+					}
+				],
+				"name": "GameObject",
+				"tag": -1,
+				"visible": true,
+				"lock": false,
+				"open": true
+			},
+			{
+				"components": [
+					{
+						"class": "TransformComponent",
+						"position": {
+							"x": 522.882,
+							"y": 148.75
+						},
+						"scale": {
+							"x": 20,
+							"y": 20
+						},
+						"rotation": {
+							"x": 0,
+							"y": 0
+						}
+					},
+					{
+						"class": "MeshComponent"
+					},
+					{
+						"class": "TerrainPathComponent",
+						"closed": true,
+						"pathVerts": [
+							{
+								"x": 10.075,
+								"y": 0.656
+							},
+							{
+								"x": 15.387,
+								"y": 0.094
+							},
+							{
+								"x": 5.139,
+								"y": -0.082
+							},
+							{
+								"x": 0,
+								"y": 0
+							},
+							{
+								"x": -0.988,
+								"y": 2.281
+							}
+						]
+					},
+					{
+						"class": "TerrainComponent",
+						"fill": "cl.Enum.TerrainFillMode.Closed",
+						"fillY": 0,
+						"fillZ": -0.5,
+						"splitCorners": true,
+						"smoothPath": true,
+						"splistDist": 4,
+						"pixelsPerUnit": 48,
+						"createCollider": true,
+						"terrainMaterial": "res/cave.tm"
+					},
+					{
+						"class": "PhysicsBody",
+						"static": true,
+						"mess": 1,
+						"moment": 1000
+					},
+					{
+						"class": "PhysicsPoly",
+						"verts": [
+							{
+								"x": 10.075,
+								"y": 0.656
+							},
+							{
+								"x": 15.387,
+								"y": 0.094
+							},
+							{
+								"x": 5.139,
+								"y": -0.082
+							},
+							{
+								"x": 0,
+								"y": 0
+							},
+							{
+								"x": -0.988,
+								"y": 2.281
+							}
+						],
+						"sensor": false,
+						"elasticity": 0,
+						"friction": 0
+					}
+				],
+				"name": "GameObject",
+				"tag": -1,
+				"visible": true,
+				"lock": false,
+				"open": true
+			},
+			{
+				"components": [
+					{
+						"class": "TransformComponent",
+						"position": {
+							"x": 34.879,
+							"y": 228.249
+						},
+						"scale": {
+							"x": 1,
+							"y": 1
+						},
+						"rotation": {
+							"x": 0,
+							"y": 0
+						}
+					},
+					{
+						"class": "SpriteComponent",
+						"sprite": "res/2.png",
+						"anchorPoint": {
+							"x": 0.5,
+							"y": 0.5
+						}
+					},
+					{
+						"class": "PhysicsBody",
+						"static": false,
+						"mess": 1,
+						"moment": null
+					},
+					{
+						"class": "PhysicsBox",
+						"sensor": false,
+						"elasticity": 0,
+						"friction": 0,
+						"width": 50,
+						"height": 50,
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						}
+					}
+				],
+				"name": "GameObject",
+				"tag": -1,
+				"visible": true,
+				"lock": false,
+				"open": false
+			},
+			{
+				"components": [
+					{
+						"class": "TransformComponent",
+						"position": {
+							"x": 389.615,
+							"y": 516.887
+						},
+						"scale": {
+							"x": 0.2,
+							"y": 0.2
+						},
+						"rotation": {
+							"x": 0,
+							"y": 0
+						}
+					},
+					{
+						"class": "Spine",
+						"file": "res/spineboy.json",
+						"animation": "idle"
+					},
+					{
+						"class": "PhysicsBody",
+						"static": false,
+						"mess": 1,
+						"moment": null
+					},
+					{
+						"class": "Run",
+						"maxSpeed": 200,
+						"acceleration": 200,
+						"drag": 100,
+						"jumpSpeed": 350
+					},
+					{
+						"class": "PhysicsBox",
+						"sensor": false,
+						"elasticity": 0,
+						"friction": 0,
+						"width": 300,
+						"height": 600,
+						"anchor": {
+							"x": 0.5,
+							"y": 0
+						}
+					}
+				],
+				"name": "GameObject",
+				"tag": -1,
+				"visible": true,
+				"lock": false,
+				"open": false
+			},
+			{
+				"components": [
+					{
+						"class": "TransformComponent",
+						"position": {
+							"x": 786.129,
+							"y": 451.999
+						},
+						"scale": {
+							"x": 0.6,
+							"y": 0.6
+						},
+						"rotation": {
+							"x": 0,
+							"y": 0
+						}
+					},
+					{
+						"class": "SpriteComponent",
+						"sprite": "res/2.png",
+						"anchorPoint": {
+							"x": 0.5,
+							"y": 0.5
+						}
+					},
+					{
+						"class": "PhysicsBody",
+						"static": false,
+						"mess": 1,
+						"moment": null
+					},
+					{
+						"class": "PhysicsBox",
+						"sensor": false,
+						"elasticity": 0,
+						"friction": 0,
+						"width": 50,
+						"height": 50,
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						}
+					}
+				],
+				"name": "GameObject",
+				"tag": -1,
+				"visible": true,
+				"lock": false,
+				"open": false
+			},
+			{
+				"components": [
+					{
+						"class": "TransformComponent",
+						"position": {
+							"x": 349.879,
+							"y": 366.999
+						},
+						"scale": {
+							"x": 0.6,
+							"y": 0.6
+						},
+						"rotation": {
+							"x": 0,
+							"y": 0
+						}
+					},
+					{
+						"class": "SpriteComponent",
+						"sprite": "res/2.png",
+						"anchorPoint": {
+							"x": 0.5,
+							"y": 0.5
+						}
+					},
+					{
+						"class": "PhysicsBody",
+						"static": false,
+						"mess": 1,
+						"moment": null
+					},
+					{
+						"class": "PhysicsBox",
+						"sensor": false,
+						"elasticity": 0,
+						"friction": 0,
+						"width": 50,
+						"height": 50,
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						}
+					}
+				],
+				"name": "GameObject",
+				"tag": -1,
+				"visible": true,
+				"lock": false,
+				"open": false
+			},
+			{
+				"components": [
+					{
+						"class": "TransformComponent",
+						"position": {
+							"x": 369.879,
+							"y": 686.999
+						},
+						"scale": {
+							"x": 0.6,
+							"y": 0.6
+						},
+						"rotation": {
+							"x": 0,
+							"y": 0
+						}
+					},
+					{
+						"class": "SpriteComponent",
+						"sprite": "res/2.png",
+						"anchorPoint": {
+							"x": 0.5,
+							"y": 0.5
+						}
+					},
+					{
+						"class": "PhysicsBody",
+						"static": false,
+						"mess": 1,
+						"moment": null
+					},
+					{
+						"class": "PhysicsBox",
+						"sensor": false,
+						"elasticity": 0,
+						"friction": 0,
+						"width": 50,
+						"height": 50,
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						}
+					}
+				],
+				"name": "GameObject",
+				"tag": -1,
+				"visible": true,
+				"lock": false,
+				"open": false
+			},
+			{
+				"components": [
+					{
+						"class": "TransformComponent",
+						"position": {
+							"x": 593.629,
+							"y": 619.499
+						},
+						"scale": {
+							"x": 0.6,
+							"y": 0.6
+						},
+						"rotation": {
+							"x": 0,
+							"y": 0
+						}
+					},
+					{
+						"class": "SpriteComponent",
+						"sprite": "res/2.png",
+						"anchorPoint": {
+							"x": 0.5,
+							"y": 0.5
+						}
+					},
+					{
+						"class": "PhysicsBody",
+						"static": false,
+						"mess": 1,
+						"moment": null
+					},
+					{
+						"class": "PhysicsBox",
+						"sensor": false,
+						"elasticity": 0,
+						"friction": 0,
+						"width": 50,
+						"height": 50,
+						"anchor": {
+							"x": 0.5,
+							"y": 0.5
+						}
+					}
+				],
+				"name": "GameObject",
+				"tag": -1,
+				"visible": true,
+				"lock": false,
+				"open": false
+			}
+		],
+		"canvas": {
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"scale": 0.8
+		}
+	}
+}
